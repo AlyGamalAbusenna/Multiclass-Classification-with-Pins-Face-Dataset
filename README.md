@@ -39,7 +39,4 @@ The following packages are required to run the notebooks:
 
 ### Installation
 
-To install the dependencies, run:
-
-```bash
-pip install -r requirements.txt
+ Make sure you have `res10_300x300_ssd_iter_140000.caffemodel` and `deploy.prototxt` files, as they are necessary for OpenCV's face detection model used in cropping faces.
